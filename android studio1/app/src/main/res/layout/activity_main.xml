@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calculator"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="751dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Calculator"
+        android:textColor="#2C2724"
+        android:textSize="59sp" />
+
+    <TextView
+        android:id="@+id/Title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="61dp"
+        android:fontFamily="@font/architects_daughter2"
+        android:text="Total"
+        android:textColor="#2E2A2A"
+        android:textSize="55sp" />
+
+    <EditText
+        android:id="@+id/First"
+        android:layout_width="226dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="588dp"
+        android:ems="10"
+        android:fontFamily="@font/alatsi2"
+        android:hint="First Number"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Title2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="431dp"
+        android:ems="10"
+        android:fontFamily="@font/alatsi"
+        android:hint="Second Number"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="260dp"
+        android:backgroundTint="#4AC5B5B5"
+        android:text="CALCULATE"
+        android:textColor="#4C4040"
+        android:textColorHighlight="#090808"
+        android:textColorHint="#C60E0E"
+        android:textSize="28sp"
+        app:rippleColor="#0C0C0C" />
+</RelativeLayout>
